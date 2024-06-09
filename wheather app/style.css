@@ -1,0 +1,190 @@
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url('./images/hazzy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Container Styles */
+.container {
+    height: 558px;
+    width: 461px;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    left: 70vh;
+    top: 15vh;
+    opacity: 0.5;
+    border-radius: 27px;
+    display: block;
+}
+
+/* For devices with a width of 1324px or less */
+@media (max-width: 3184px) {
+    .container {
+        height: 590px;
+        width: 579px;
+        left: 51%;
+        top: 10vh;
+        transform: translateX(-50%);
+    }
+}
+
+/* For devices with a width of 768px or less */
+@media (max-width: 768px) {
+    .container {
+        height: 629px;
+        width: 487px;
+        left: 50%;
+        top: 4vh;
+        transform: translateX(-50%);
+    }
+    body{
+        height: 110vh;
+    }
+}
+
+/* For devices with a width of 480px or less */
+@media (max-width: 480px) {
+    .container {
+        height: 629px;
+        width: 350px;
+        left: 50%;
+        top: 4vh;
+        transform: translateX(-50%);
+    }
+    body{
+        height: 110vh;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        height: 102vh;
+        position: relative;
+        left: 58px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .container {
+        height: 474px;
+        width: 387px;
+        left: 38%;
+        top: 10vh;
+        transform: translateX(-50%);
+    }
+    .In{
+        font-size: 4vh;
+        height: 6vh;
+        position: relative;
+        left: 24%;
+        top: 9vh;
+        border: 2px solid black;
+        width: 31vh;
+        border-radius: 8px;
+        background-color: white;
+        color: black;
+        padding-left: 11px;
+    }
+}
+@media (max-width: 522px) {
+    .container {
+        height: 423px;
+        width: 331px;
+        left: 34%;
+        top: 10vh;
+        transform: translateX(-50%);
+    }
+    }
+    .In{
+    font-size: 4vh;
+    height: 6vh;
+    position: relative;
+    left: 17%;
+    top: 9vh;
+    border: 2px solid black;
+    width: 30vh;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding-left: 11px;
+    }
+
+.miniconatiner{
+    display: inline-grid;
+    position: relative;
+    left: 33%;
+    top: 22vh;
+    height: 23vh;
+    font-size: 7vh;
+    font-weight: 800;
+}
+.In{
+    font-size: 4vh;
+    height: 6vh;
+    position: relative;
+    left: 18%;
+    top: 9vh;
+    border: 2px solid black;
+    width: 42vh;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding-left: 11px;
+}
+
+.search{
+    color: black;
+    position: relative;
+    top: 11vh;
+    left: 17vh;
+    height: 7vh;
+    width: 7vh;
+    background-color: white;
+    opacity: 1;
+    border-radius: 91px;
+    font-size: 7px;
+    background-image: url(./images/mag.gif);
+    background-size: cover;
+    background-position: center;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 18vh;
+    left: 37%;
+}
+.mini2{
+    position: relative;
+    font-size: 5vh;
+    font-weight: 500;
+    bottom: 6vh;
+}
+
+.mini1{
+    position: relative;
+    bottom: 3vh;
+    font-size: 8vh;
+    right: 2vh;
+}
+.footer{
+    position: relative;
+    top: 26vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.humid{
+    font-size: 4vh;
+}
+.windspeed{
+    font-size: 4vh;
+}
